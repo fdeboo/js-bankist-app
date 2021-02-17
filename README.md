@@ -1,5 +1,6 @@
 # js-bankist-app
-view [bankist](https://fdeboo.github.io/js-bankist-app/)
+[view](https://fdeboo.github.io/js-bankist-app/) the app.    
+
 Loads the individual users' banking account page and tracks their deposits and withdrawals.
 
 The bankist app was created as part of [The Complete JavaScript Course 2021: From Zero to Expert! ](https://www.udemy.com/course/the-complete-javascript-course/) Udemy series by Jonas Schmedtmann.    
