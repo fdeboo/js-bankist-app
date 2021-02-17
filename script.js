@@ -51,19 +51,19 @@ const account2 = {
 
 const account3 = {
   owner: 'Frances DeBoo',
-  movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
+  movements: [800, 400, -150, -790, -3210, -1000, 10500, -30],
   interestRate: 1.5,
   pin: 3333,
 
   movementsDates: [
-    '2019-11-01T13:15:33.035Z',
-    '2019-11-30T09:48:16.867Z',
-    '2019-12-25T06:04:23.907Z',
-    '2020-01-25T14:18:46.235Z',
-    '2020-02-05T16:33:06.386Z',
-    '2021-02-15T14:43:26.374Z',
-    '2021-02-12T18:49:59.371Z',
-    '2021-02-17T12:01:20.894Z',
+    '2019-08-05T13:15:33.035Z',
+    '2019-08-07T09:48:16.867Z',
+    '2019-10-15T06:04:23.907Z',
+    '2020-01-14T14:18:46.235Z',
+    '2020-02-26T16:33:06.386Z',
+    '2021-03-05T14:43:26.374Z',
+    '2021-11-13T18:49:59.371Z',
+    '2021-12-25T12:01:20.894Z',
   ],
   currency: 'GBP',
   locale: 'en-GB',
@@ -166,7 +166,7 @@ const calcDisplaySummary = function (acc) {
       return int >= 1;
     })
     .reduce((acc, int) => acc + int, 0);
-  labelSumInterest.textContent = `${formatCur(interest, acc.locale, acc.currency)}€`;
+  labelSumInterest.textContent = `${formatCur(interest, acc.locale, acc.currency)}`;
 };
 
 const createUsernames = function (accs) {
